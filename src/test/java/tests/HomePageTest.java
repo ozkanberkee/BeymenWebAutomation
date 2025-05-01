@@ -1,5 +1,6 @@
 package tests;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.commons.io.input.CloseShieldReader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer;
@@ -16,6 +17,8 @@ import utils.ExcelUtils;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class HomePageTest extends BaseTest {
+    private static final Logger logger = LogManager.getLogger(HomePageTest.class);
+
 	String expectedHomePageTitle = "Beymen.com – Türkiye’nin Tek Dijital Lüks Platformu";
 	String expectedInfoMessage = "Ürün sepetinize eklenmiştir.";
 	String expectedEmptyBasketMessage = "SEPETINIZDE ÜRÜN BULUNMAMAKTADIR";
@@ -26,8 +29,10 @@ public class HomePageTest extends BaseTest {
 	@Test
 	@Order(1)
 	public void userCanAcceptCookiesAndCloseGenderOption() {
-		homePage.acceptCookies();
-		homePage.selectMaleGenderOption();
+        logger.info("Test başladı: userCanAcceptCookies");
+        homePage.acceptCookies();
+        logger.info("Cookies kabul edildi");		
+        homePage.selectMaleGenderOption();
 	}
 
 	@Test

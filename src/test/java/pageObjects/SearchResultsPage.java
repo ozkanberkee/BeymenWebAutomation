@@ -43,7 +43,6 @@ public class SearchResultsPage extends BasePage {
 		wait.until(ExpectedConditions.visibilityOfAllElements(campaignedProductDetailLabelOnHome));
 		Random random = new Random();
 		randomIndex = random.nextInt(campaignedProductDetailLabelOnHome.size());
-		System.out.println(randomIndex);
 
 		return randomIndex;
 	}

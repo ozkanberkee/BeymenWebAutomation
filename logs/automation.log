@@ -1,0 +1,11 @@
+[INFO ] 2025-05-01 15:33:22.774 HomePageTest:32 - Test başladı: userCanAcceptCookies
+[DEBUG] 2025-05-01 15:33:38.460 PackageRelationshipCollection:309 - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-05-01 15:33:38.463 PackageRelationshipCollection:309 - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-05-01 15:33:38.950 PackageRelationshipCollection:309 - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-05-01 15:33:38.953 PackageRelationshipCollection:309 - Parsing relationship: /_rels/.rels
+[INFO ] 2025-05-01 15:35:35.100 HomePageTest:32 - Test başladı: userCanAcceptCookies
+[INFO ] 2025-05-01 15:35:35.448 HomePageTest:34 - Cookies kabul edildi
+[DEBUG] 2025-05-01 15:35:36.050 PackageRelationshipCollection:309 - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-05-01 15:35:36.056 PackageRelationshipCollection:309 - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-05-01 15:35:36.503 PackageRelationshipCollection:309 - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-05-01 15:35:36.505 PackageRelationshipCollection:309 - Parsing relationship: /_rels/.rels
